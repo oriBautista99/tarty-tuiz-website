@@ -13,6 +13,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CardGoalComponent } from './components/card-goal/card-goal.component';
 import { CardPersonComponent } from './components/card-person/card-person.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CardChartComponent } from './components/card-chart/card-chart.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     TeamComponent,
     HeaderComponent,
     CardGoalComponent,
-    CardPersonComponent
+    CardPersonComponent,
+    CardChartComponent
   ],
   imports: [
     BrowserModule,
