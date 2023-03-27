@@ -1,0 +1,10 @@
+<div class="team" id="team">
+  <div class="divider-small"></div>
+  <h2 class="titleText">Equipo de trabajo</h2>
+  <div class="slider">
+    <app-card-person *ngFor="let user of person" [ci]="user.ci" [job]="user.job" [name]="user.name" [sex]="user.sex"></app-card-person>
+  </div>
+  <div class="bg-img">
+    <img src="assets/fondo_tarta.jpg" alt="fondo">
+  </div>
+</div>

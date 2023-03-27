@@ -1,0 +1,9 @@
+<div class="card border-box" [ngClass]="{'card-man': sex == 'm', 'card-won': sex == 'w'}">
+  <div class="imgCard border-img">
+    <img [src]="job ? 'assets/'+job : 'assets/user.jpg'" alt="person" class="border-img">
+  </div>
+  <div class="infoCard">
+    <h3 class="name">{{name}}</h3>
+    <h5 class="ci">{{ci}}</h5>
+  </div>
+</div>

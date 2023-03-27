@@ -1,0 +1,42 @@
+.goals{
+  position: relative;
+  width: 100%;
+  padding: 100px;
+  background-color: var(--orange);
+}
+.flexGrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.flexGrid .goal-content{
+  width: 49%;
+}
+
+.titleText{
+  color: #fff;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .goals{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px){
+  .goals{
+    padding: 50px 20px;
+  }
+  .flexGrid .goal-content{
+    width: 100%;
+  }
+
+}
