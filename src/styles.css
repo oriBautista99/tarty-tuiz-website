@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+:root{
+  --orange: #D48556;
+  --bg-cream: #ffc2723c;
+  --cream: #FFC172;
+  --purple: #7d508b;
+  --bg-purple: #7d508bce;
+  --green: #79CF57;
+  --bg-green: #79cf57c1;
+  --brown: #613F38;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.border-box{
+  border-radius: 15px;
+}
+
+.divider-small{
+  position: relative;
+  height: 5px;
+  width: 60px;
+  border-radius: 15px;
+  background-color: var(--green);
+}
+
+.swiper{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-slide{
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+<div class="goals" id="goals">
+  <div class="divider-small"></div>
+  <h2 class="titleText"><span>O</span>bjetivos</h2>
+  <div class="flexGrid">
+    <div class="goal-content" *ngFor="let goal of goals">
+      <app-card-goal [type]="goal.type" [text]="goal.text"></app-card-goal>
+    </div>
+  </div>
+</div>
