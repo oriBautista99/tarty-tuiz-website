@@ -1,1 +1,12 @@
-<p>results works!</p>
+<div class="result" id="results">
+  <div class="divider-small"></div>
+  <h2 class="titleText">Resultados de la investigación</h2>
+  <div class="flexGrid">
+    <div class="chart-content" *ngFor="let chart of info">
+      <app-card-chart [name]="chart.name" [img]="chart.img" [text]="chart.text" [type]="chart.type"></app-card-chart>
+    </div>
+    <div style="width: 98%;" >
+      <app-card-chart [name]="info2.name" [img1]="info2.img1" [img2]="info2.img2" [title1]="info2.title1" [title2]="info2.title2" [text]="info2.text" [type]="info2.type"></app-card-chart>
+    </div>
+  </div>
+</div>

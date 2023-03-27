@@ -1,0 +1,36 @@
+<div *ngIf="type == 'chart-simple'" class="card border-box card-general">
+  <div class="row">
+    <div class="col20">
+      <div class="divider-small"></div>
+      <h2 class="titleText">{{name}}</h2>
+      <p class="text">{{text}}</p>
+    </div>
+    <div class="col80">
+      <div class="img-box border-box">
+        <img [src]="img" alt="grafico" class="img-box border-box ">
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="type == 'chart-double'" class="card border-box card-general">
+  <div class="divider-small"></div>
+  <div class="text-info">{{name}}</div>
+  <div class="flex">
+    <div class="content-img">
+      <p>{{title1}}</p>
+      <div class="img-box border-box">
+        <img [src]="img1" alt="grafico" class=" border-box ">
+      </div>
+    </div>
+    <div class="content-img">
+      <p>{{title2}}</p>
+      <div class="img-box border-box">
+        <img [src]="img2" alt="grafico" class=" border-box ">
+      </div>
+    </div>
+  </div>
+  <div class="text">
+    <p>{{text}}</p>
+  </div>
+</div>
+

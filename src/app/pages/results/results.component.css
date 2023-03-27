@@ -1,0 +1,42 @@
+.result{
+  position: relative;
+  width: 100%;
+  padding: 100px;
+  background-color: var(--cream);
+}
+
+.titleText{
+  color: #fff;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.flexGrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.flexGrid .chart-content{
+  width: 49%;
+}
+
+@media (min-width: 768px) and (max-width: 1080px){
+  .result{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px){
+  .result{
+    padding: 50px 20px;
+  }
+  .flexGrid .chart-content{
+    width: 100%;
+  }
+}
