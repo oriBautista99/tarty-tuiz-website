@@ -60,6 +60,10 @@ p{
 }
 
 @media (min-width: 768px) and (max-width: 1080px) {
+  .banner{
+    margin-top: 68px;
+    margin-bottom: 68px;
+  }
   .tarta-up{
     display: none;
   }

@@ -11,7 +11,8 @@ export class ResultsComponent {
     { name: 'Apariencia Global', img:'assets/apariencia_global.png', text:'Fue de gran aceptación para nuestra audiencia, recibiendo 90% de opiniones a favor de ello.', type:'chart-simple'},
     { name: 'Sabor', img:'assets/sabor.png', text:'Un 87%, más de la mitad les gusta nuestro sabor.', type:'chart-simple'},
     { name: 'Textura', img:'assets/textura.png', text:'Al 70% le agrado la textura de la tarta.', type:'chart-simple'},
-    { name: 'Aroma', img:'assets/aroma.png', text:'Aunque hubo un porcentaje representativo que le resulto indiferente 23% y no lo toma en cuenta, al 74% le gusto.', type:'chart-simple'}
+    { name: 'Aroma', img:'assets/aroma.png', text:'Aunque hubo un porcentaje representativo que le resulto indiferente 23% y no lo toma en cuenta, al 74% le gusto.', type:'chart-simple'},
+    { name: 'Satisfacción', img:'assets/satisfacion.png', text:'Sin embargo, al medir el grado de satisfacción del producto se llegó a que la mayoría de votos rondaban entre el grado 7 y 10, demostrando que es un producto de calidad con altas probabilidades de que las personas en un futuro lo compraran y regresaran por él.', type:'chart-simple'}
   ];
 
   info2 = {

@@ -36,6 +36,7 @@
 
 .text{
   margin-top: 10px;
+  margin-bottom: 10px;
   color: #fff;
   font-size: medium;
 }
@@ -54,6 +55,7 @@
 }
 
 .card .row .col80{
+  align-self: center;
   width: 72%;
 }
 
